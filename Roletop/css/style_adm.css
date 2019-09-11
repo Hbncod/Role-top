@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    color: #ff9933
+}
+#menu {
+    
+    cursor: pointer;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #7d0093;
+}
+#menu .logo > img {
+    text-align: start;
+    width: 70px;
+}
+
+#menu .usuario> img{
+    text-align: end;
+    width: 60px;
+}
+
+h1{
+    display:none;
+}
+#nav ul>li{
+    
+        list-style-type:none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: relative;
+        float: left;
+        justify-content: space-between;
+        width: 80px;
+        
+}
+
+/* ================================CORPO DO SITE==============================
+=============================================================================== */
+h2{
+    background-color: #67007a;
+    color: #ff9933;
+    text-align: center;
+    padding: 3%;
+}
+h3{
+    background-color: #67007a;
+    color: #ff9933;
+    text-align: center;
+    padding: 1%;
+    position: relative;
+    margin-bottom: 0%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%
+    
+    
+}
+.eventos{
+    color:#ff9933;
+    position: relative;
+    padding-top: 1%;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    
+}
+p{
+    background: #7d0093;
+    padding-bottom: 13%;
+    margin-left: 26%;
+    margin-right: 26%;
+    border-left: 5% ;
+    margin-bottom: 5%
+    
+}
+.inf{
+    color: #ff9933;
+    background: #7d0093;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5%;
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================================RODAPÉ======================================
+==============================================================================*/
+body{
+    background-color:black;
+}
+#rodape{
+    display: block;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: #7d0093;
+    text-align: center;
+    padding: 5px 0;
+    width:100%;
+    position: absolute;
+}
