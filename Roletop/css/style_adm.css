@@ -57,10 +57,8 @@ h3{
     text-align: center;
     padding: 1%;
     position: relative;
-    margin-bottom: 0%;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%
+    width: 100%;
+    margin-top: 10%
     
     
 }
@@ -73,27 +71,15 @@ h3{
     text-align: center;
     
 }
-p{
-    background: #7d0093;
-    padding-bottom: 13%;
-    margin-left: 26%;
-    margin-right: 26%;
-    border-left: 5% ;
-    margin-bottom: 5%
-    
-}
 .inf{
-    color: #ff9933;
+    flex: 1;
+	margin: 0%;
     background: #7d0093;
-    display: flex;
-    justify-content: center;
+    width: 50%;
     align-items: center;
-    padding:5%;
-    
-
-    
+	text-align: center;
+	font-size: 1.5em;
 }
-
 
 
 
@@ -107,7 +93,7 @@ p{
 /* ================================RODAPÉ======================================
 ==============================================================================*/
 body{
-    background-color:black;
+    background-color: black;
 }
 #rodape{
     display: block;
